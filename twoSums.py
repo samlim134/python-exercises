@@ -1,3 +1,4 @@
+from typing import List #for python 3.9 and above, no need to import this anymore
 """
 1) no repeated elements in the array
 2) exactly 1 combination that adds up to target
