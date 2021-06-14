@@ -5,13 +5,9 @@
 """
 
 def main():
-    nums_str : list = input().split()
-    nums_int : list = [None]*len(nums_str)
+    nums_int = list(map(int, input().strip(' []').split(',')))
+    #user will straight away input an integer list already, no need manually use loop to convert it
     target : int = int(input())
-
-    #to create a list of integers from user
-    for i in range(len(nums_str)):
-        nums_int[i] = int(nums_str[i])
 
     #O(n^2) algorithm
     hasFound : bool = False
