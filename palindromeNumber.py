@@ -24,9 +24,8 @@ class Solution:
                 return False
         return True
 
-
 testing = Solution()
 print(testing.isPalindrome(1000021))
 
-
+#only faster than 5% of the community
 
